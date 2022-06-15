@@ -1,0 +1,184 @@
+@media (min-width: 360px) and (max-width: 480px) {
+    @font-face {
+        font-family: "Poppins";
+        src: url(./fonts/Poppins/Poppins-Medium.ttf);
+    }
+
+    /* Base */
+    #base {
+        background-image: url(bg1.jpeg);
+        padding-top: 20px;
+        padding-bottom: 85px;
+        border-image-width: 100%;
+    }
+
+    #base .wadahluar {
+        background-color: rgba(228, 228, 228, 0.4);
+        height: auto;
+        width: auto;
+        /* padding: 28px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 100px;
+        border-radius: 13px;
+        backdrop-filter: blur(1.5px);
+    }
+
+    #base .btn-primary {
+        height: 100px;
+        width: 100px;
+        border-radius: 8px;
+        background-color: white;
+        border: none;
+        margin-bottom: 7%;
+    }
+    #base .btnadd img {
+        height: 50px;
+        width: 50px;
+        border-radius: 8px;
+        background-color: white;
+        border: none;
+        margin-bottom: 7%;
+    }
+
+
+    #base .title {
+        background-color: #32599C;
+        height: 100px;
+        /* width: 10px; */
+        border-radius: 8px;
+        text-align: center;
+        align-self: center;
+        margin-left: 25px;
+    }
+
+    #base .title h1 {
+        padding-top: 38.5px;
+        color: white;
+        font-family: 'poppins';
+        font-weight: 400;
+        font-size: medium;
+    }
+
+    #base .btn-success {
+        margin-top: 15px;
+        height: 95px;
+        width: 100px;
+        border-radius: 8px;
+        float: left;
+        position: relative;
+    }
+
+    #base .btnbook img {
+        height: 50px;
+        width: 50px;
+        border-radius: 8px;
+    }
+
+    #base .btn-danger {
+        margin-top: 15px;
+        height: 95px;
+        width: 100px;
+        border-radius: 8px;
+    }
+
+    #base .btn-danger img{
+        height: 50px;
+        width: 50px;
+        border-radius: 8px;
+    }
+
+    #base .text {
+        font-size: 10px;
+        font-family: 'Poppins';
+        font-weight: 300;
+    }
+
+    #base .carousel-inner img {
+        
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    #base .layer {
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.59), rgba(196, 196, 196, 0));
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    #base .layer h1 {
+        font-size: 8px;
+        font-family: 'Poppins';
+    }
+
+    #base .layer h2 {
+        font-size: 13px;
+        font-family: 'Poppins';
+    }
+
+    #base .carousel-indicators .active {
+        background-color: #408458;
+    }
+
+    #base .carousel-indicators [data-bs-target] {
+        width: 5.5px;
+        height: 5.5px;
+        border-radius: 50%;
+        margin-bottom: 34px;
+    }
+
+    #base .carousel-indicators {
+        justify-content: start;
+        height: 7px;
+        margin-left: 50px;
+        margin-bottom: 24px;
+    }
+
+    #base .btnright i{
+        font-size: 30px;
+        color: #32599C;
+    }
+
+    #base .btnleft i{
+        font-size: 30px;
+        color: #32599C;
+    }
+
+    #base2 .title i{
+        background-color: #32599C;
+        height: 100px;
+        border-radius: 18px;
+        text-align: center;
+        align-self: center;
+        margin-top: 30px;
+    }
+
+    #base2 .title h1 {
+        padding-top: 8.5%;
+        color: white;
+        font-size: 28px;
+        font-weight: 340;
+    }
+    #base2 .vr{
+        /* vr hidden */
+        height: 0;
+        width: 0;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-left: -50px;
+        margin-top: -100px;
+        margin-bottom: -50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+ 
+    }
+}
