@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\GerbangController;
+use App\Http\Controllers\AlatsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +20,6 @@ Route::prefix('/master-data')->group(function () {
         return view('Template-Admin.main');
     });
     
-  Route::get('/gerbang',[GerbangController::class,'index']);
-
+    Route::resource('/gerbang', GerbangController::class);
+    Route::resource('/alat', AlatsController::class);
 });

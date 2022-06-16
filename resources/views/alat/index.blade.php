@@ -1,5 +1,5 @@
 @extends('templates.master')
-@yield('title', 'Data Gerbang')
+@yield('title', 'Data Alat')
 
 @section('main')
 <div id="main">
@@ -13,7 +13,7 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Data Gerbang</h3>
+                    <h3>Data Alat</h3>
                     <p class="text-subtitle text-muted">PT Pertamina Patra Niaga Regional Sumbagsel</p>
                     <div class="row">
                         <div class="col">                            
@@ -29,7 +29,7 @@
                     <div class="row mb-3">
                         <div class="col">
                             <a href="{{ url('/master-data/officer/create')}}" class="btn btn-primary" role="button">
-                            <span style="margin-right: 10px;"><span class="fa-fw select-all fas"></span></span> Tambah Gerbang 
+                            <span style="margin-right: 10px;"><span class="fa-fw select-all fas"></span></span> Tambah Alat 
                             </a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
         <section class="section">
             <div class="card">
                 <div class="card-header">
-                    Tabel Gerbang
+                    Tabel Alat
                 </div>
                 <div class="card-body">
 
@@ -55,15 +55,15 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Nama Gerbang</th>
+                                <th>Nama Alat</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach ($gerbang as $item)
+                            @foreach ($Alat as $item)
                             <tr>
                                 <td>{{ $loop->iteration }}</td>
-                               <td>{{$gerbang -> nama_gerbang}}</td>
+                               <td>{{$Alat -> nama_Alat}}</td>
                                
                                 <td>
                                     <a href="{{url('/master-data/officer/'.$item->id).'/edit'}}" class="btn btn-info"><span class="fa-fw select-all fas"></span></a>

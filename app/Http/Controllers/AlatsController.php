@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Gerbang;
+use App\Models\ALats;
 use Illuminate\Http\Request;
 
-class GerbangController extends Controller
+class AlatsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,7 @@ class GerbangController extends Controller
      */
     public function index()
     {
-        $gerbang = Gerbang::all();
-        return view('gerbang.index', compact('gerbang'));
+        //
     }
 
     /**
@@ -25,7 +24,7 @@ class GerbangController extends Controller
      */
     public function create()
     {
-        return view('gerbang.create');
+        //
     }
 
     /**
@@ -42,10 +41,10 @@ class GerbangController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Gerbang  $gerbang
+     * @param  \App\Models\ALats  $aLats
      * @return \Illuminate\Http\Response
      */
-    public function show(Gerbang $gerbang)
+    public function show(ALats $aLats)
     {
         //
     }
@@ -53,10 +52,10 @@ class GerbangController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Gerbang  $gerbang
+     * @param  \App\Models\ALats  $aLats
      * @return \Illuminate\Http\Response
      */
-    public function edit(Gerbang $gerbang)
+    public function edit(ALats $aLats)
     {
         //
     }
@@ -65,10 +64,10 @@ class GerbangController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Gerbang  $gerbang
+     * @param  \App\Models\ALats  $aLats
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Gerbang $gerbang)
+    public function update(Request $request, ALats $aLats)
     {
         //
     }
@@ -76,10 +75,10 @@ class GerbangController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Gerbang  $gerbang
+     * @param  \App\Models\ALats  $aLats
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Gerbang $gerbang)
+    public function destroy(ALats $aLats)
     {
         //
     }
