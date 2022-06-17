@@ -16,10 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::prefix('/master-data')->group(function () {
-    Route::get('/admin', function () {
-        return view('Template-Admin.main');
+    Route::get('/dashboard', function () {
+        return view('templates.master');
     });
-    
+
     Route::resource('/gerbang', GerbangController::class);
     Route::resource('/alat', AlatsController::class);
 });
